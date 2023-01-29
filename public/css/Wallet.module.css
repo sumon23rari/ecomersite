@@ -1,0 +1,135 @@
+.accountTotal{
+   box-shadow:  0px 0px 30px 5px rgb(0 0 0 / 5%);
+    padding: 20px;
+}
+.chartPanel{
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 5%);
+    padding-top: 15px;
+}
+.accountTitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 11px;
+    padding-top: 15px;
+    text-transform: capitalize;
+}
+.top{
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.top h4{
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #606060;
+    margin-top: -2px;
+    margin-bottom: -3px
+}
+.tags{
+    display: flex;
+    gap: 10px;
+}
+.tags span{
+    display: inline-block;
+}
+.tag{
+    height: 25px;
+    line-height: 25px;
+    font-size: 13px;
+    background: #ccc;
+    padding: 0 10px;
+}
+.tagUp{
+    background: #fe5502;
+    color: #ffffff;
+}
+.tagdown{
+    background: #222222;
+    color: #ffffff;
+}
+.middle{
+    text-align: center;
+    padding: 50px 0;
+}
+.middle h3{
+    font-size: 30px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #606060;
+    margin-top: -2px;
+    margin-bottom: -5px;
+}
+.btnBox{
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btnFirst{
+    text-decoration: none;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background: #222222;
+}
+.btnFirst:hover{
+    background: #fe5502;
+    transition: 0.3s;
+    color: #fff;
+}
+.tableWrap{
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 5%);
+}
+.tableTop{
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
+}
+.tableTop .title{
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+    color: #222222;
+    margin-top: -2px;
+    margin-bottom: -3px;
+}
+.searchBox{
+    padding: 0 20px;
+    border: 1px solid #ddd;
+}
+.searchBox input{
+    border: none;
+}
+.searchBox button{
+    color: #222;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+.tableData,.tableheading{
+    font-weight: 600;
+    color: #808080;
+    line-height: 45px;
+    text-align: left;
+    padding: 20px 20px !important;
+}
+
+/* manage profile page */

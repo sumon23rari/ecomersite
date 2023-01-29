@@ -1,0 +1,58 @@
+.reviewCard{
+    border: 1px solid #ddd;
+    padding: 30px 15px;
+    margin: 0 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.reviewer{
+    display: flex;
+    margin-bottom: 5px;
+}
+.partImgr img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.partText h5{    font-size: 20px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #292929;
+    margin-top: 18px; 
+    margin-left: 19%;
+    
+    }
+    .partText p{
+        font-size: 15px;
+        line-height: 100%;
+        font-weight: 400;
+        color: #606060;
+        margin-left: 19%;
+        margin-top: -4px;
+    }
+    .reviewTxt p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #606060;
+        margin-bottom: 13px;
+    }
+    .feedTitle{
+        padding: 10px 0 70px 0;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-size:23px;
+        text-align: center;
+        position: relative;
+    }
+    .feedTitle::after{
+        position: absolute;
+        content: '';
+        bottom: 50px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 90px;
+        height: 3px;
+        background: #fe5502;
+    }

@@ -1,0 +1,84 @@
+.textItem img{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+
+}
+.textItem{
+    position: relative;
+}
+.overlay{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 222;
+}
+.overlay:after{
+    position: absolute;
+    content: "";
+    background: rgba(15,28,47,.3);
+    border-radius: 5px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;  
+}
+.button{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+  
+}
+.button a{
+    font-weight: 600;
+    font-size: 20px;
+    color: tomato;
+}
+.button .imaged{
+width: 50px;
+height: 50px;
+margin-top: -10%;
+z-index: 9999;
+
+}
+
+.headingitem{
+    text-align: center;
+    font-size: 26px;
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    margin-top: -4px;
+   padding: 30px 0;
+    margin-bottom: 40px;
+    position: relative;
+}
+.headingitem:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 90px;
+    height: 3px;
+    background: #fe5502;
+}
+.accordion-button{
+    position: relative;
+}
+.accordion-button::after{
+    position:absolute;
+    content: '';
+    background-color: #fe5502 !important;
+    margin-left: 0 !important;
+}

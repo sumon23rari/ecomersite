@@ -1,0 +1,131 @@
+/* .tableInfo{
+    padding: 30px;
+} */
+.tableData{
+    padding: 20px 0 !important;
+    font-weight: 600;
+    color:#808080;
+   
+    text-align: left;
+    padding: 20px 0 !important;
+}
+.tablestatus{
+    text-align: center;
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    color:#2CADA5;
+    background:  #dcf9f6;
+ }
+ .tableinActive{
+    text-align: center;
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    color: #FF6B6B;
+    background: #FFD2D2;
+ }
+.invoiceTitle{
+    line-height: 100%;
+    font-weight: 500;
+    color: #222222;
+    margin-bottom: 31px;
+    font-size: 24px;
+}
+.tableheading{
+    font-weight: 600;
+    padding: 20px 0 !important;
+    color: #222222;
+}
+.tableBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.pagination button{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #606060;
+    border: none;
+}
+.pagination .activebutton {
+    background: #fe5502;
+    color: #ffffff;  
+}
+.pagination button:hover{
+    background: #fe5502;
+    color: #ffffff;
+}
+
+/* invoicePic page css */
+.sideVar{
+    box-shadow: 0px 0px 30px 5px rgb(0 0 0 / 5%);
+}
+.user{
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.partImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.nav{
+    padding-bottom: 30px;
+}
+.nav button{
+    display: block;
+    text-align: left;
+    background-color: rgba(255, 253, 253, 0.966);
+    
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+}
+
+.txt{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: #606060;
+}
+.icon{
+    font-weight: 500;
+    color: #606060;
+    font-size: 20px;
+    text-align: center;
+    width: 25px;
+    margin-right: 5px;
+}
+
+/* invoiceStyle css */
+.activColor{
+ color: #fe5502;
+ position: relative;
+}
+.activColor:after{
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 2px;
+    background: #fe5502;
+    left: -18%;
+}
+.activColor .icon{
+    color: #fe5502;
+}
+.activColor .txt{
+    color: #fe5502;
+}
